@@ -46,6 +46,8 @@ Note: Restart NGINX after updating configuration file.
 
 ```
 File: nginx.conf
+Section: Server block
+
 ssl_client_certificate /path/to/file/client.example.com.pem;
 ssl_verify_client on;
 ```
